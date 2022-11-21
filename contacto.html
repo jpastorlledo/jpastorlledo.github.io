@@ -1,0 +1,48 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="imagenes/logo.png">
+        <title>EPEMUR - Formulario de contacto</title>
+    </head>
+    <body>
+        <header id="cabecera" class="flex-container">
+            <div class="logo">
+                <img src="imagenes/logo.png" class="responsive-img" alt="Logo">
+                <span>EPEMUR</span>
+            </div>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="lista.html">Lista</a>
+                <a href="contacto.html" class="activo">Contacto</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Formulario de contacto</h1>
+
+            <form action="" method="" class="contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" size="40">
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="text" id="email" name="email" size="50">
+
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" size="40">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" cols="40" rows="10"></textarea>
+                <p>
+                    <input type="submit" class="button" value="Enviar">
+                    <input type="reset" class="button" value="Borrar">
+                </p>
+            </form>
+        </main>
+        
+        <footer>
+            &copy; Copyright 2022, EPEMUR S.L. Todos los derechos reservados
+        </footer>
+    </body>
+</html>
